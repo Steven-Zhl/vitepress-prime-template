@@ -1,0 +1,18 @@
+@import "tailwindcss";
+@import "primeicons/primeicons.css";
+
+@plugin "@tailwindcss/typography";
+
+:root {
+  --p-primary-50: #f0fdfc !important;
+  --p-primary-100: #ccfbf1 !important;
+  --p-primary-200: #99f6e4 !important;
+  --p-primary-300: #5eead4 !important;
+  --p-primary-400: #2dd4bf !important;
+  --p-primary-500: #39C5BB !important;
+  --p-primary-600: #0d9488 !important;
+  --p-primary-700: #0f766e !important;
+  --p-primary-800: #115e59 !important;
+  --p-primary-900: #134e4a !important;
+  --p-primary-950: #042f2e !important;
+}
