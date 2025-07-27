@@ -1,5 +1,7 @@
 ---
+title: Runtime API Examples
 outline: deep
+recommend: true
 ---
 
 # Runtime API Examples

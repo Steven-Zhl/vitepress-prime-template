@@ -10,8 +10,10 @@ declare module 'vue' {
   export interface GlobalComponents {
     Button: typeof import('primevue/button')['default']
     Card: typeof import('primevue/card')['default']
+    Carousel: typeof import('primevue/carousel')['default']
     FloatLabel: typeof import('primevue/floatlabel')['default']
     Image: typeof import('primevue/image')['default']
     InputText: typeof import('primevue/inputtext')['default']
+    Tag: typeof import('primevue/tag')['default']
   }
 }

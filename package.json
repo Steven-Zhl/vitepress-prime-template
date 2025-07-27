@@ -1,5 +1,6 @@
 {
   "name": "vitepress-shadcn-template",
+  "type": "module",
   "version": "1.0.0",
   "description": "A VitePress template with Tailwind CSS and shadcn/vue components",
   "author": "Steven-Zhl",

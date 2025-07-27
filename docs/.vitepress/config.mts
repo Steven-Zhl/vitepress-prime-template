@@ -15,6 +15,10 @@ export default defineConfig({
       { text: '首页', link: '/' },
       { text: '关于', link: '/about' },
     ],
+    author: {
+      name: "Steven-Zhl",
+      avatar: ".vitepress/theme/logo.jpg",
+    },
     search: {
       provider: 'local',
       options: {
