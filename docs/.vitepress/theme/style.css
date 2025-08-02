@@ -1,5 +1,6 @@
 @import "tailwindcss";
 @import "primeicons/primeicons.css";
+@custom-variant dark (&:where(.dark, .dark *));
 
 @plugin "@tailwindcss/typography";
 
@@ -16,3 +17,4 @@
   --p-primary-900: #134e4a !important;
   --p-primary-950: #042f2e !important;
 }
+

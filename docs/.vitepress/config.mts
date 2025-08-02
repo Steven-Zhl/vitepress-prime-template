@@ -10,14 +10,14 @@ export default defineConfig({
   lang: "zh", // 同 <html lang="zh">
 
   themeConfig: {
-    logo: ".vitepress/theme/logo.jpg",
+    logo: "/logo.jpg",
     nav: [
       { text: '首页', link: '/' },
       { text: '关于', link: '/about' },
     ],
     author: {
       name: "Steven-Zhl",
-      avatar: ".vitepress/theme/logo.jpg",
+      avatar: "/logo.jpg",
     },
     search: {
       provider: 'local',
@@ -28,9 +28,13 @@ export default defineConfig({
           }
         }
       }
-    }
+    },
   },
-  vite: {
+  markdown: {
+    theme: {
+      light: "vitesse-light",
+      dark: "vitesse-dark"
+    },
     plugins: [
       tailwindcss(),
       Components({ resolvers: [PrimeVueResolver()] })

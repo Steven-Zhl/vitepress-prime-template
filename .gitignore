@@ -142,5 +142,3 @@ docs/.vitepress/cache/
 # 自行修改的
 .idea/
 .vscode/
-# 忽略/docs下的文件夹(测试的文档)
-docs/**/

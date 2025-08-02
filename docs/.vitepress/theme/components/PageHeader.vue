@@ -1,5 +1,7 @@
 <template>
-  <header class="flex flex-row justify-between items-center px-2 py-4 sticky top-0 left-0 right-0" data-name="header">
+  <header
+    data-name="header"
+    class="flex flex-row justify-between items-center px-2 py-4 sticky top-0 left-0 right-0 z-10 bg-[#FFFFFFAA] dark:bg-[#000000AA] backdrop-blur-md">
     <Button data-name="header-logo" variant="text" rounded @click="router.go('/')">
       <Image :src="theme.logo" v-if="theme.logo" class="w-6 h-6 rounded-xl overflow-hidden" alt="icon"/>
       <h1 class="font-bold">{{ site.title }}</h1>

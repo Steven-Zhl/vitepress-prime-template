@@ -13,7 +13,7 @@ const { frontmatter } = useData()
   <div class="layout">
     <PageHeader/>
     <main>
-      <div class="w-full lg:w-3/4 mx-auto" data-name="page-container">
+      <div class="w-full ml:w-4/5 xl:3/4 mx-auto" data-name="page-container">
         <Home v-if="frontmatter.home"/>
         <Archive v-else-if="frontmatter.archive"/>
         <Post v-else/>
